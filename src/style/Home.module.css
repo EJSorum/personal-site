@@ -1,0 +1,12 @@
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.subtitle {
+  color: rgb(0, 10, 180);
+  text-shadow: rgba(0, 10, 180, 0.5) 2px 2px;
+}
