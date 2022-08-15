@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style/App.module.css';
 import Nav from './components/Nav';
+import LeftTab from './components/LeftTab';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className={style.AppDiv}>
       <Nav />
+      <LeftTab />
       <div className={style.sections}>
         <Home />
         <About />

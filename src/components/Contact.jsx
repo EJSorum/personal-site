@@ -4,7 +4,12 @@ import style from '../style/Contact.module.css';
 function Contact() {
   return (
     <div className={style.contactDiv}>
-      <h2 id="contact">Contact</h2>
+      <div className={style.headerDiv}>
+        <h2 id="contact" className={style.contactHeader}>
+          Contact
+        </h2>
+        <div className={style.line} />
+      </div>
       <br />
       <div>
         <span>Eric Sorum</span>

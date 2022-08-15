@@ -1,0 +1,33 @@
+.leftTabDiv {
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tabLine {
+  height: 40px;
+  width: 5px;
+  background-color: rgb(61, 123, 255);
+}
+
+.line {
+  height: 10vh;
+  width: 2px;
+  background-color: rgb(61, 123, 255);
+}
+
+.linkIcon {
+  width: 20px;
+  filter: invert(50%);
+  transition: filter 1st ease-out;
+  padding-bottom: 20px;
+}
+
+.linkIcon:hover,
+.linkIcon:focus {
+  filter: invert(100%);
+}
