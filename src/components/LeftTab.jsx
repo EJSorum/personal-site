@@ -7,7 +7,7 @@ import email from './images/email.svg';
 function LeftTab() {
   return (
     <div className={style.leftTabDiv}>
-      <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">
+      <a href="mailto:ejsorum@gmail.com">
         <img src={email} alt="Email" className={style.linkIcon} />
       </a>
       <a href="https://github.com/EJSorum">

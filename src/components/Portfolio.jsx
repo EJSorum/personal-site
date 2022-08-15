@@ -61,84 +61,194 @@ function Portfolio() {
           <div className={style.card}>
             <a href="https://ejsorum.github.io/Beer-Tools/dist/index.html">
               <img src={beer} alt="Beer Tools" className={style.projectImg} />
-              <h3>Beer Tools</h3>
             </a>
-            <a href="https://github.com/EJSorum/Beer-Tools">GitHub repo</a>
-            <p>
-              Performs calculations useful to the beer industry: Converting Julian dates into
-              Gregorian Dates; ABV and volume into number of standard drinks, and calculating the
-              value per ounce of packaging formats.
-            </p>
-            <ul>
-              <li>rendered using modular functions and Webpack.</li>
-              <li>formatted with Prettier, ESLint, and Husky.</li>
-            </ul>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/Beer-Tools/dist/index.html">
+                  <div className={style.projectTitle}>Beer Tools</div>
+                </a>
+                <a
+                  href="https://ejsorum.github.io/Beer-Tools/dist/index.html"
+                  className={style.linkSet}
+                >
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/Beer-Tools" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  Performs calculations useful to the beer industry: Converting Julian dates into
+                  Gregorian Dates; ABV and volume into number of standard drinks, and calculating
+                  the value per ounce of packaging formats.
+                </p>
+                <ul>
+                  <li>rendered using modular functions and Webpack.</li>
+                  <li>formatted with Prettier, ESLint, and Husky.</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className={style.card}>
             <a href="https://abcd-architecture.herokuapp.com/">
               <img src={architecture} alt="ABCD Architecture" className={style.projectImg} />
-              <h3>ABCD Architecture</h3>
             </a>
-            <a href="https://github.com/EJSorum/architecture-page">GitHub repo</a>
-            <p>
-              A six-page website for a fictional company. Home page designed after
-              {' '}
-              <a href="http://www.dfdg.com">dfdg.com</a>
-            </p>
-            <ul>
-              <li>React Router.</li>
-              <li>CSS animations.</li>
-            </ul>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://abcd-architecture.herokuapp.com/">
+                  <div className={style.projectTitle}>ABCD Architecture</div>
+                </a>
+                <a href="https://abcd-architecture.herokuapp.com/" className={style.linkSet}>
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/architecture-page" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  A six-page website for a fictional company. Home page designed after
+                  {' '}
+                  <a href="http://www.dfdg.com">dfdg.com</a>
+                </p>
+                <ul>
+                  <li>React Router.</li>
+                  <li>CSS animations.</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className={style.card}>
             <a href="https://ejsorum.github.io/react-landing/">
-              <img src={max} alt="Max's Landing Page" className={style.projectImg} />
-              <h3>Max&aposs Landing Page</h3>
+              <img src={max} alt="Max" className={style.projectImg} />
             </a>
-            <a href="https://github.com/EJSorum/react-landing">GitHub repo</a>
-            <p>
-              Uses React props to render repetitive elements on a landing page for a fictional
-              musician.
-            </p>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/react-landing/">
+                  <div className={style.projectTitle}>Maxs Landing Page</div>
+                </a>
+                <a href="https://ejsorum.github.io/react-landing/" className={style.linkSet}>
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/react-landing" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  Uses React props to render repetitive elements on a landing page for a fictional
+                  musician.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className={style.card}>
             <a href="https://ejsorum.github.io/tea-shop/">
               <img src={tea} alt="Tea Shop" className={style.projectImg} />
-              <h3>Tea Shop</h3>
             </a>
-            <a href="https://github.com/EJSorum/tea-shop">GitHub repo</a>
-            <p>Uses class components to add items to the shopping cart.</p>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/tea-shop/">
+                  <div className={style.projectTitle}>Tea Shop</div>
+                </a>
+                <a href="https://ejsorum.github.io/tea-shop/" className={style.linkSet}>
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/tea-shop" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  Uses class components to add items to the shopping cart.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className={style.card}>
             <a href="https://ejsorum.github.io/Gallery/dist/index.html">
               <img src={gallery} alt="Gallery" className={style.projectImg} />
-              <h3>Gallery</h3>
             </a>
-            <a href="https://github.com/EJSorum/Gallery">GitHub repo</a>
-            <p>Dynamically generates an image gallery.</p>
-            <ul>
-              <li>Object-oriented programming with Webpack and CSS grid.</li>
-            </ul>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/Gallery/dist/index.html">
+                  <div className={style.projectTitle}>Gallery</div>
+                </a>
+                <a
+                  href="https://ejsorum.github.io/Gallery/dist/index.html"
+                  className={style.linkSet}
+                >
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/Gallery" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>Dynamically generates an image gallery.</p>
+                <ul>
+                  <li>Object-oriented programming with Webpack and CSS grid.</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className={style.card}>
             <a href="https://ejsorum.github.io/Pantry/index.html">
               <img src={pantry} alt="Pantry" className={style.projectImg} />
-              <span>Pantry</span>
             </a>
-            <a href="https://github.com/EJSorum/Pantry">GitHub repo</a>
-            <p>
-              Generates a grocery list, allowing users to create items, delete items, and send items
-              to the top.
-            </p>
-            <ul>
-              <li>DOM manipulation using vanilla JavaScript.</li>
-              <li>splice, for loops, and factory functions.</li>
-            </ul>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/Pantry/index.html">
+                  <div className={style.projectTitle}>Pantry</div>
+                </a>
+                <a href="https://ejsorum.github.io/Pantry/index.html" className={style.linkSet}>
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/Pantry" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  Generates a grocery list, allowing users to create items, delete items, and send
+                  items to the top.
+                </p>
+                <ul>
+                  <li>DOM manipulation using vanilla JavaScript.</li>
+                  <li>splice, for loops, and factory functions.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

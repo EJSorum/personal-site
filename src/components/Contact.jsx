@@ -11,7 +11,7 @@ function Contact() {
         <div className={style.line} />
       </div>
       <br />
-      <div>
+      <div className={style.addressBlock}>
         <span>Eric Sorum</span>
         <span>3527 11th Ave S</span>
         <span>Minneapolis, MN 55407</span>
@@ -19,6 +19,9 @@ function Contact() {
         <a href="mailto:ejsorum@gmail.com" style={style.email}>
           ejsorum@gmail.com
         </a>
+        <br />
+        <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">Find me on LinkedIn</a>
+        <a href="https://github.com/EJSorum">View my GitHub profile</a>
       </div>
     </div>
   );
