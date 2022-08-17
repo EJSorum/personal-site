@@ -2,8 +2,8 @@
   position: absolute;
   z-index: -1;
   filter: invert(80%);
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .logoText {
@@ -16,8 +16,8 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 40px;
-  left: 40px;
+  top: 20px;
+  left: 20px;
   animation: 1s ease-out 0s 1 fadeIn;
   transition: all 1s ease-out;
 }

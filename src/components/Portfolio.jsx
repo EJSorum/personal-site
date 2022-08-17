@@ -96,6 +96,39 @@ function Portfolio() {
           </div>
 
           <div className={style.card}>
+            <a href="https://ejsorum.github.io/Pantry/index.html">
+              <img src={pantry} alt="Pantry" className={style.projectImg} />
+            </a>
+            <div>
+              <div className={style.projectHeader}>
+                <a href="https://ejsorum.github.io/Pantry/index.html">
+                  <div className={style.projectTitle}>Pantry</div>
+                </a>
+                <a href="https://ejsorum.github.io/Pantry/index.html" className={style.linkSet}>
+                  Go to site
+                  {' '}
+                  <img src={site} alt="Link arrow" className={style.linkIcon} />
+                </a>
+                <a href="https://github.com/EJSorum/Pantry" className={style.linkSet}>
+                  GitHub repo
+                  {' '}
+                  <img src={github} alt="Github icon" className={style.linkIcon} />
+                </a>
+              </div>
+              <div className={style.textBlock}>
+                <p className={style.description}>
+                  Generates a grocery list, allowing users to create items, delete items, and send
+                  items to the top.
+                </p>
+                <ul>
+                  <li>DOM manipulation using vanilla JavaScript.</li>
+                  <li>splice, for loops, and factory functions.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className={style.card}>
             <a href="https://abcd-architecture.herokuapp.com/">
               <img src={architecture} alt="ABCD Architecture" className={style.projectImg} />
             </a>
@@ -213,39 +246,6 @@ function Portfolio() {
                 <p className={style.description}>Dynamically generates an image gallery.</p>
                 <ul>
                   <li>Object-oriented programming with Webpack and CSS grid.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className={style.card}>
-            <a href="https://ejsorum.github.io/Pantry/index.html">
-              <img src={pantry} alt="Pantry" className={style.projectImg} />
-            </a>
-            <div>
-              <div className={style.projectHeader}>
-                <a href="https://ejsorum.github.io/Pantry/index.html">
-                  <div className={style.projectTitle}>Pantry</div>
-                </a>
-                <a href="https://ejsorum.github.io/Pantry/index.html" className={style.linkSet}>
-                  Go to site
-                  {' '}
-                  <img src={site} alt="Link arrow" className={style.linkIcon} />
-                </a>
-                <a href="https://github.com/EJSorum/Pantry" className={style.linkSet}>
-                  GitHub repo
-                  {' '}
-                  <img src={github} alt="Github icon" className={style.linkIcon} />
-                </a>
-              </div>
-              <div className={style.textBlock}>
-                <p className={style.description}>
-                  Generates a grocery list, allowing users to create items, delete items, and send
-                  items to the top.
-                </p>
-                <ul>
-                  <li>DOM manipulation using vanilla JavaScript.</li>
-                  <li>splice, for loops, and factory functions.</li>
                 </ul>
               </div>
             </div>
