@@ -84,8 +84,8 @@ function Portfolio() {
               <div className={style.textBlock}>
                 <p className={style.description}>
                   Performs calculations useful to the beer industry: Converting Julian dates into
-                  Gregorian Dates; ABV and volume into number of standard drinks, and calculating
-                  the value per ounce of packaging formats.
+                  Gregorian Dates; ABV and volume into number of standard drinks, and finding the
+                  value per ounce of packaging formats.
                 </p>
                 <ul>
                   <li>rendered using modular functions and Webpack.</li>

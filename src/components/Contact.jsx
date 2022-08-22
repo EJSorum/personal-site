@@ -12,16 +12,22 @@ function Contact() {
       </div>
       <br />
       <div className={style.addressBlock}>
-        <span>Eric Sorum</span>
-        <span>3527 11th Ave S</span>
-        <span>Minneapolis, MN 55407</span>
-        <span>(651) 399-6279</span>
-        <a href="mailto:ejsorum@gmail.com" style={style.email}>
-          ejsorum@gmail.com
-        </a>
+        <p className={style.contactText}>
+          I look forward to being in touch about any software developer positions at your company. I
+          am eager to get to work as soon as possible!
+        </p>
         <br />
-        <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">Find me on LinkedIn</a>
-        <a href="https://github.com/EJSorum">View my GitHub profile</a>
+        <div className={style.contactButtonDiv}>
+          <a href="mailto:ejsorum@gmail.com">
+            <div className={style.contactButton}>Email: ejsorum@gmail.com</div>
+          </a>
+          <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">
+            <div className={style.contactButton}>Find me on LinkedIn</div>
+          </a>
+          <a href="https://github.com/EJSorum">
+            <div className={style.contactButton}>View my GitHub profile</div>
+          </a>
+        </div>
       </div>
     </div>
   );

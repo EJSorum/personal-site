@@ -22,6 +22,11 @@
   align-items: flex-start;
 }
 
+.blueText {
+  color: rgb(61, 123, 255);
+  font-size: 1.2rem;
+}
+
 .headerDiv {
   display: flex;
   justify-content: flex-start;
@@ -30,9 +35,14 @@
   width: 80vw;
 }
 
-.homeHeader {
+.homeHeader,
+.subHeader {
   color: rgb(61, 123, 255);
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+
+.subHeader {
+  opacity: 0.5;
 }
 
 .line {
@@ -44,4 +54,15 @@
 .subtitle {
   color: rgb(0, 10, 180);
   text-shadow: rgba(0, 10, 180, 0.5) 2px 2px;
+}
+
+.resumeButtons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.resumeButton {
+  border: solid rgb(61, 123, 255) 2px;
+  padding: 10px;
 }
